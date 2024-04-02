@@ -6417,3 +6417,444 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.02-04.19.06:001][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 1.08 sec)
 [2024.04.02-04.19.06:003][964]AssetCheck: New page: Asset Save: Cucumber
 [2024.04.02-04.19.06:003][964]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/Cucumber.Cucumber
+[2024.04.02-04.25.44:676][ 87]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: ================================================
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Total job queries 69, among them cache hits 0 (0.00%)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Tracking 55 distinct input hashes that result in 45 distinct outputs (81.82%)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: RAM used: 1.24 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Shaders Compiled: 55
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Jobs assigned 59, completed 55 (93.22%)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Average time worker was idle: 633.04 s
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Time job spent in pending queue: average 5.57 s, longest 12.20 s
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Job execution time: average 1.45 s, max 6.34 s
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Job life time (pending + execution): average 7.40 s, max 15.90
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Shader code size: average 34.104 KiB, min 4.465 KiB, max 68.047 KiB
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.91 s
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Jobs were issued in 58 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Average processing rate: 2.63 jobs/sec
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Total thread time: 66.48 s
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Total thread preprocess time: 5.683 s
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Percentage time preprocessing: 8.55%
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Effective parallelization: 3.18 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                    TBasePassPSFNoLightMapPolicyForceVelocity (compiled    1 times, average 6.20 sec, max 6.20 sec, min 6.20 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    2 times, average 3.01 sec, max 3.63 sec, min 2.40 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                                               FHWRasterizeMS (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                                               FHWRasterizeVS (compiled    1 times, average 1.78 sec, max 1.78 sec, min 1.78 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.50% of total time (compiled    7 times, average 1.00 sec, max 1.82 sec, min 0.38 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.48% of total time (compiled    7 times, average 0.99 sec, max 1.72 sec, min 0.40 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                    TBasePassPSFNoLightMapPolicyForceVelocity - 9.33% of total time (compiled    1 times, average 6.20 sec, max 6.20 sec, min 6.20 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.07% of total time (compiled    2 times, average 3.01 sec, max 3.63 sec, min 2.40 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 7.77% of total time (compiled    5 times, average 1.03 sec, max 1.89 sec, min 0.47 sec)
+[2024.04.02-04.25.45:824][184]LogShaderCompilers: Display: ================================================
+[2024.04.02-04.30.50:905][619]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.02-04.30.50:913][619]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.02-04.30.50:913][619]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.04.02-04.30.50:921][619]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 7 ms (total: 447 ms)
+[2024.04.02-04.30.50:921][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.02-04.30.50:921][619]PIE: New page: PIE session: ThirdPersonMap (Apr 1, 2024, 6:30:50 PM)
+[2024.04.02-04.30.50:921][619]LogPlayLevel: Display: Creating online subsystem for client :Context_68
+[2024.04.02-04.30.50:924][619]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.04.02-04.30.50:940][620]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.02-04.30.50:952][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011714s)
+[2024.04.02-04.30.50:952][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.011788s)
+[2024.04.02-04.30.50:973][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.04.02-04.30.50:977][620]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.30.50:977][620]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-04.30.50:977][620]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.04.02-04.30.50:978][620]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.02-04.30.50:978][620]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.02-04.30.50:978][620]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.02-04.30.50:978][620]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.02-04.30.50:980][620]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.04.02-04.30.50:980][620]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 627 ms)
+[2024.04.02-04.30.50:980][620]LogPlayLevel: PIE: World Init took: (0.004597s)
+[2024.04.02-04.30.50:981][620]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2024.04.02-04.30.50:981][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.02-04.30.50:981][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.02-04.30.50:981][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.02-04.30.50:981][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.02-04.30.50:981][620]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.02-04.30.50:981][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.02-04.30.50:981][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.02-04.30.50:981][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.02-04.30.50:981][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.02-04.30.50:981][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.02-04.30.50:981][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.02-04.30.50:984][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.02-04.30.51:000][620]LogAudioMixer: Display: Using Audio Hardware Device Remote Audio
+[2024.04.02-04.30.51:001][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.02-04.30.51:001][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.02-04.30.51:001][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.02-04.30.51:003][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2024.04.02-04.30.51:003][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2024.04.02-04.30.51:005][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2024.04.02-04.30.51:005][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2024.04.02-04.30.51:005][620]LogInit: FAudioDevice initialized with ID 60.
+[2024.04.02-04.30.51:005][620]LogAudio: Display: Audio Device (ID: 60) registered with world 'ThirdPersonMap'.
+[2024.04.02-04.30.51:005][620]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2024.04.02-04.30.51:041][620]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.02-04.30.51:050][620]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.04.01-23.30.51
+[2024.04.02-04.30.51:050][620]LogWorld: Bringing up level for play took: 0.008453
+[2024.04.02-04.30.51:055][620]PIE: Server logged in
+[2024.04.02-04.30.51:056][620]PIE: Play in editor total start time 0.143 seconds.
+[2024.04.02-04.30.55:918][  0]LogBlueprintUserMessages: [Cucumber_C_UAID_089204D8AD5DBEE601_1407852480] Hello
+[2024.04.02-04.31.00:907][432]LogBlueprintUserMessages: [Cucumber_C_UAID_089204D8AD5DBEE601_1407852480] pppppp
+[2024.04.02-04.31.00:918][433]LogBlueprintUserMessages: [Cucumber_C_UAID_089204D8AD5DBEE601_1407852480] what
+[2024.04.02-04.31.06:001][886]LogBlueprintUserMessages: [Cucumber_C_UAID_089204D8AD5DBEE601_1407852480] Hello
+[2024.04.02-04.31.11:003][332]LogBlueprintUserMessages: [Cucumber_C_UAID_089204D8AD5DBEE601_1407852480] pppppp
+[2024.04.02-04.31.11:015][333]LogBlueprintUserMessages: [Cucumber_C_UAID_089204D8AD5DBEE601_1407852480] what
+[2024.04.02-04.31.13:152][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-04.31.13:152][516]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.04.02-04.31.13:152][516]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-04.31.13:153][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-04.31.13:153][516]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.04.02-04.31.13:224][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.02-04.31.13:230][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-04.31.13:247][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.02-04.31.13:248][516]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2024.04.02-04.31.13:248][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.04.02-04.31.13:251][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.04.02-04.31.13:260][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.02-04.31.13:351][517]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.04.02-04.36.33:772][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.Cucumber:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.Cucumber_C' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.Cucumber:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.Cucumber:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.Cucumber:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.SKEL_Cucumber_C' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.Cucumber_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.Cucumber_C:ReceiveTick' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.SKEL_Cucumber_C:UserConstructionScript' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.SKEL_Cucumber_C:move back' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.SKEL_Cucumber_C:move forward' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.SKEL_Cucumber_C:ReceiveTick' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.SKEL_Cucumber_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:773][242]LogMetaData: Removing '/Game/Enemies/Blueprints/Cucumber.SKEL_Cucumber_C:ReceiveBeginPlay' ref from Metadata '/Game/ThirdPerson/Blueprints/Cucumber.PackageMetaData'
+[2024.04.02-04.36.33:786][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-04.36.33:890][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Blueprints/Cucumber" FILE="../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Cucumber.uasset" SILENT=true
+[2024.04.02-04.36.33:912][242]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/Cucumber
+[2024.04.02-04.36.33:912][242]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/Cucumber7693BC1E41E1C03C1EC247A1D07C5AAD.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Cucumber.uasset'
+[2024.04.02-04.36.33:922][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/Cucumber" FILE="../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/ThirdPerson/Blueprints/Cucumber.uasset" SILENT=true
+[2024.04.02-04.36.33:924][242]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/Cucumber
+[2024.04.02-04.36.33:925][242]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/Cucumber85E5D19A497A7BF6367447A8EA739073.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/ThirdPerson/Blueprints/Cucumber.uasset'
+[2024.04.02-04.36.33:936][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 1.23 sec)
+[2024.04.02-04.36.33:953][242]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.02-04.36.33:953][242]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/Cucumber.Cucumber
+[2024.04.02-04.36.33:953][242]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/ThirdPerson/Blueprints/Cucumber.Cucumber_C
+[2024.04.02-04.36.33:953][242]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/ThirdPerson/Blueprints/Cucumber.Cucumber
+[2024.04.02-04.36.33:953][242]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/ThirdPerson/Blueprints/Cucumber.Default__Cucumber_C
+[2024.04.02-04.36.37:952][651]LogMetaData: Removing '/Game/Enemies/Blueprints/CustomLoop.CustomLoop:Custom Loop With Delay.K2Node_Tunnel_0' ref from Metadata '/Game/ThirdPerson/Blueprints/CustomLoop.PackageMetaData'
+[2024.04.02-04.36.37:952][651]LogMetaData: Removing '/Game/Enemies/Blueprints/CustomLoop.CustomLoop:Custom Loop With Delay.K2Node_Tunnel_1' ref from Metadata '/Game/ThirdPerson/Blueprints/CustomLoop.PackageMetaData'
+[2024.04.02-04.36.37:966][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-04.36.38:159][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Blueprints/Cucumber" FILE="../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Cucumber.uasset" SILENT=true
+[2024.04.02-04.36.38:181][651]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/Cucumber
+[2024.04.02-04.36.38:182][651]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/Cucumber92C2DFA3436D936D840ADD8B656EF9B2.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Cucumber.uasset'
+[2024.04.02-04.36.38:184][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Blueprints/CustomLoop" FILE="../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/CustomLoop.uasset" SILENT=true
+[2024.04.02-04.36.38:191][651]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/CustomLoop
+[2024.04.02-04.36.38:191][651]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/CustomLoop3CA94E6249AC4BD0980529A4B0520729.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/CustomLoop.uasset'
+[2024.04.02-04.36.38:206][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 239 ms (total: 1.47 sec)
+[2024.04.02-04.36.38:244][651]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.04.02-04.36.38:268][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.02-04.36.38:288][651]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.04.02-04.36.38:306][651]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.02-04.36.38:306][651]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/Cucumber.Cucumber
+[2024.04.02-04.36.38:306][651]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/CustomLoop.CustomLoop
+[2024.04.02-04.38.50:783][ 76]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.02-04.39.10:980][993]LogStatusBar: Looking status bar with open content browser drawer...
+[2024.04.02-04.39.10:980][993]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2024.04.02-04.39.11:029][993]LogViewport: Scene viewport resized to 1523x547, mode Windowed.
+[2024.04.02-04.39.13:629][247]LogViewport: Scene viewport resized to 1523x519, mode Windowed.
+[2024.04.02-04.39.13:647][248]LogViewport: Scene viewport resized to 1523x511, mode Windowed.
+[2024.04.02-04.39.13:800][249]LogViewport: Scene viewport resized to 1523x475, mode Windowed.
+[2024.04.02-04.39.13:836][250]LogViewport: Scene viewport resized to 1523x471, mode Windowed.
+[2024.04.02-04.39.13:875][251]LogViewport: Scene viewport resized to 1523x467, mode Windowed.
+[2024.04.02-04.39.13:914][252]LogViewport: Scene viewport resized to 1523x464, mode Windowed.
+[2024.04.02-04.39.13:951][253]LogViewport: Scene viewport resized to 1523x463, mode Windowed.
+[2024.04.02-04.39.13:986][254]LogViewport: Scene viewport resized to 1523x460, mode Windowed.
+[2024.04.02-04.39.14:030][256]LogViewport: Scene viewport resized to 1523x459, mode Windowed.
+[2024.04.02-04.39.14:376][294]LogViewport: Scene viewport resized to 1523x457, mode Windowed.
+[2024.04.02-04.39.14:453][296]LogViewport: Scene viewport resized to 1523x453, mode Windowed.
+[2024.04.02-04.39.14:483][297]LogViewport: Scene viewport resized to 1523x451, mode Windowed.
+[2024.04.02-04.39.14:514][298]LogViewport: Scene viewport resized to 1523x449, mode Windowed.
+[2024.04.02-04.39.14:551][299]LogViewport: Scene viewport resized to 1523x447, mode Windowed.
+[2024.04.02-04.39.14:600][302]LogViewport: Scene viewport resized to 1523x446, mode Windowed.
+[2024.04.02-04.39.14:619][303]LogViewport: Scene viewport resized to 1523x444, mode Windowed.
+[2024.04.02-04.39.14:664][304]LogViewport: Scene viewport resized to 1523x443, mode Windowed.
+[2024.04.02-04.39.14:734][309]LogViewport: Scene viewport resized to 1523x442, mode Windowed.
+[2024.04.02-04.39.23:011][ 34]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.02-04.39.23:038][ 34]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.02-04.39.23:046][ 34]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.02-04.39.23:056][ 35]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.02-04.39.26:629][464]LogContentBrowser: Attempting asset rename: NewBlueprint -> Tomato
+[2024.04.02-04.39.26:638][464]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.02-04.39.49:663][671]LogStaticMesh: Display: Building static mesh SM_PROP_food_tomato...
+[2024.04.02-04.39.49:668][671]LogStaticMesh: Built static mesh [0.00s] /Game/Fantastic_Village_Pack/meshes/props/food/SM_PROP_food_tomato.SM_PROP_food_tomato
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: ================================================
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Total job queries 70, among them cache hits 0 (0.00%)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Tracking 70 distinct input hashes that result in 52 distinct outputs (74.29%)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: RAM used: 1.61 MiB of 1.60 GiB budget. Usage: 0.10%
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Shaders Compiled: 70
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Jobs assigned 70, completed 70 (100%)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Average time worker was idle: 540.30 s
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Time job spent in pending queue: average 4.89 s, longest 12.20 s
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Job execution time: average 1.24 s, max 6.34 s
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Job life time (pending + execution): average 6.14 s, max 15.90
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Shader code size: average 33.688 KiB, min 3.699 KiB, max 68.047 KiB
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 23.01 s
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Jobs were issued in 70 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Average processing rate: 3.04 jobs/sec
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Total thread time: 71.93 s
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Total thread preprocess time: 6.354 s
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Percentage time preprocessing: 8.83%
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Effective parallelization: 3.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                    TBasePassPSFNoLightMapPolicyForceVelocity (compiled    1 times, average 6.20 sec, max 6.20 sec, min 6.20 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    2 times, average 3.01 sec, max 3.63 sec, min 2.40 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                                               FHWRasterizeMS (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                                               FHWRasterizeVS (compiled    1 times, average 1.78 sec, max 1.78 sec, min 1.78 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.24% of total time (compiled    8 times, average 0.92 sec, max 1.72 sec, min 0.40 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.21% of total time (compiled    8 times, average 0.92 sec, max 1.82 sec, min 0.36 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                    TBasePassPSFNoLightMapPolicyForceVelocity - 8.63% of total time (compiled    1 times, average 6.20 sec, max 6.20 sec, min 6.20 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.38% of total time (compiled    2 times, average 3.01 sec, max 3.63 sec, min 2.40 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 8.30% of total time (compiled    7 times, average 0.85 sec, max 1.89 sec, min 0.40 sec)
+[2024.04.02-04.39.50:617][754]LogShaderCompilers: Display: ================================================
+[2024.04.02-04.40.04:169][185]Cmd: TRANSACTION UNDO
+[2024.04.02-04.40.04:169][185]LogEditorTransaction: Undo Edit Static Mesh
+[2024.04.02-04.40.11:999][989]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Tomato.Tomato_C
+[2024.04.02-04.40.11:999][989]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Tomato.Tomato_C
+[2024.04.02-04.40.12:001][989]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Tomato.Tomato as actor: Tomato_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Tomato_C_0
+[2024.04.02-04.40.12:001][989]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Tomato.Tomato as actor: Tomato_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Tomato_C_0
+[2024.04.02-04.40.12:015][990]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.04.02-04.40.13:431][ 95]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Tomato.Tomato_C
+[2024.04.02-04.40.13:431][ 95]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Tomato.Tomato_C
+[2024.04.02-04.40.13:434][ 95]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Tomato.Tomato as actor: Tomato_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Tomato_C_UAID_B04F1315F8A123E801_1087621311
+[2024.04.02-04.40.13:435][ 95]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Tomato.Tomato as actor: Tomato_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Tomato_C_UAID_B04F1315F8A123E801_1087621311
+[2024.04.02-04.40.26:904][583]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/Blueprints/Tomato.Tomato
+[2024.04.02-04.40.26:904][583]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.40.26:904][583]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-04.40.27:120][583]LogViewport: Scene viewport resized to 1371x813, mode Windowed.
+[2024.04.02-04.40.33:423][ 11]LogViewport: Scene viewport resized to 1356x813, mode Windowed.
+[2024.04.02-04.40.33:446][ 12]LogViewport: Scene viewport resized to 1329x813, mode Windowed.
+[2024.04.02-04.40.33:465][ 13]LogViewport: Scene viewport resized to 1317x813, mode Windowed.
+[2024.04.02-04.40.33:488][ 14]LogViewport: Scene viewport resized to 1291x813, mode Windowed.
+[2024.04.02-04.40.33:509][ 15]LogViewport: Scene viewport resized to 1279x813, mode Windowed.
+[2024.04.02-04.40.33:532][ 16]LogViewport: Scene viewport resized to 1262x813, mode Windowed.
+[2024.04.02-04.40.33:554][ 17]LogViewport: Scene viewport resized to 1240x813, mode Windowed.
+[2024.04.02-04.40.33:599][ 18]LogViewport: Scene viewport resized to 1219x813, mode Windowed.
+[2024.04.02-04.40.33:621][ 19]LogViewport: Scene viewport resized to 1201x813, mode Windowed.
+[2024.04.02-04.40.33:641][ 20]LogViewport: Scene viewport resized to 1190x813, mode Windowed.
+[2024.04.02-04.40.33:662][ 21]LogViewport: Scene viewport resized to 1185x813, mode Windowed.
+[2024.04.02-04.40.33:684][ 22]LogViewport: Scene viewport resized to 1182x813, mode Windowed.
+[2024.04.02-04.40.34:126][ 54]LogViewport: Scene viewport resized to 1177x813, mode Windowed.
+[2024.04.02-04.40.34:147][ 55]LogViewport: Scene viewport resized to 1164x813, mode Windowed.
+[2024.04.02-04.40.34:168][ 56]LogViewport: Scene viewport resized to 1160x813, mode Windowed.
+[2024.04.02-04.40.46:639][920]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-04.40.46:639][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-04.41.59:051][538]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.04.02-04.41.59:051][538]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.02-04.42.00:540][660]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/Blueprints/Cucumber.Cucumber
+[2024.04.02-04.42.00:540][660]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.42.00:541][660]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-04.42.11:182][343]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.42.25:924][175]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_FruitAtlas_01_ORM.T_FruitAtlas_01_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.42.25:971][177]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_FruitAtlas_01_Normal.T_FruitAtlas_01_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.42.26:096][182]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_FruitAtlas_01_Basecolor.T_FruitAtlas_01_Basecolor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.42.47:112][282]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_Atlas_01_Normal.T_Atlas_01_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.42.47:355][292]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_Atlas_01_ORMSS.T_Atlas_01_ORMSS (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.42.47:407][294]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_Atlas_01_Basecolor.T_Atlas_01_Basecolor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: ================================================
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Total job queries 107, among them cache hits 16 (14.95%)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Tracking 90 distinct input hashes that result in 69 distinct outputs (76.67%)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: RAM used: 2.11 MiB of 1.60 GiB budget. Usage: 0.13%
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Shaders Compiled: 90
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Jobs assigned 91, completed 90 (98.90%)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Average time worker was idle: 446.89 s
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Time job spent in pending queue: average 4.17 s, longest 12.20 s
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Job execution time: average 1.30 s, max 6.34 s
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Job life time (pending + execution): average 5.48 s, max 15.90
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Shader code size: average 34.06 KiB, min 3.699 KiB, max 68.047 KiB
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 31.31 s
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Jobs were issued in 91 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Average processing rate: 2.87 jobs/sec
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Total thread time: 93.846 s
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Total thread preprocess time: 11.439 s
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Percentage time preprocessing: 12.19%
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Effective parallelization: 3.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                    TBasePassPSFNoLightMapPolicyForceVelocity (compiled    1 times, average 6.20 sec, max 6.20 sec, min 6.20 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    1 times, average 5.01 sec, max 5.01 sec, min 5.01 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    2 times, average 3.01 sec, max 3.63 sec, min 2.40 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                               FHWRasterizeMS (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                               FHWRasterizeVS (compiled    1 times, average 1.78 sec, max 1.78 sec, min 1.78 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.41% of total time (compiled   10 times, average 1.26 sec, max 3.24 sec, min 0.36 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 11.10% of total time (compiled    9 times, average 1.16 sec, max 3.04 sec, min 0.40 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.81% of total time (compiled   10 times, average 1.01 sec, max 1.72 sec, min 0.40 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 7.90% of total time (compiled    7 times, average 1.06 sec, max 2.07 sec, min 0.34 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display:                                                  FVelocityVS - 7.33% of total time (compiled   10 times, average 0.69 sec, max 2.20 sec, min 0.27 sec)
+[2024.04.02-04.42.50:658][367]LogShaderCompilers: Display: ================================================
+[2024.04.02-04.43.01:006][942]LogStaticMesh: Display: Building static mesh SM_Tomatoes...
+[2024.04.02-04.43.01:020][942]LogStaticMesh: Adjacency [0.00s], tris: 1691, UVs 2, Color
+[2024.04.02-04.43.01:026][942]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/UltimateFarming/Meshes/SM_Tomatoes) ...
+[2024.04.02-04.43.01:027][942]LogStaticMesh: Clustering [0.01s]. Ratio: 1.857143
+[2024.04.02-04.43.01:027][942]LogStaticMesh: Leaves [0.00s]
+[2024.04.02-04.43.01:129][942]LogStaticMesh: Reduce [0.10s]
+[2024.04.02-04.43.01:182][942]LogStaticMesh: Fallback 0/1 [0.05s], num tris: 804
+[2024.04.02-04.43.01:183][942]LogStaticMesh: ConstrainClusters:
+[2024.04.02-04.43.01:183][942]LogStaticMesh:   Input: 40 Clusters, 3455 Triangles and 3237 Vertices
+[2024.04.02-04.43.01:183][942]LogStaticMesh:   Output without splits: 40 Clusters, 3455 Triangles and 3247 Vertices
+[2024.04.02-04.43.01:183][942]LogStaticMesh:   Output with splits: 40 Clusters, 3455 Triangles and 3247 Vertices
+[2024.04.02-04.43.01:184][942]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 40, Slow Path Clusters: 0, 1 Material: 40, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.04.02-04.43.01:185][942]LogStaticMesh: WritePages:
+[2024.04.02-04.43.01:185][942]LogStaticMesh:   Root: GPU size: 32660 bytes. 1 Pages. 32660.000 bytes per page (99.670% utilization).
+[2024.04.02-04.43.01:185][942]LogStaticMesh:   Streaming: GPU size: 20168 bytes. 1 Pages (1 with relative encoding). 20168.000 bytes per page (15.387% utilization).
+[2024.04.02-04.43.01:185][942]LogStaticMesh:   Page data disk size: 41328 bytes. Fixup data size: 256 bytes.
+[2024.04.02-04.43.01:185][942]LogStaticMesh:   Total GPU size: 52828 bytes, Total disk size: 41584 bytes.
+[2024.04.02-04.43.01:185][942]LogStaticMesh: Encode [0.00s]
+[2024.04.02-04.43.01:185][942]LogStaticMesh: Nanite build [0.16s]
+
+[2024.04.02-04.43.01:191][942]LogStaticMesh: Built static mesh [0.19s] /Game/UltimateFarming/Meshes/SM_Tomatoes.SM_Tomatoes
+[2024.04.02-04.43.05:065][ 64]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2024.04.02-04.43.05:164][ 64]LogD3D12RHI: Warning: Waited for PSO creation for 200.000000ms
+[2024.04.02-04.43.13:577][441]BlueprintLog: New page: Compile Tomato
+[2024.04.02-04.43.13:626][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.02-04.44.30:674][899]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.02-04.44.30:684][899]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.02-04.44.30:691][899]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.02-04.44.30:705][900]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.02-04.44.35:679][453]LogContentBrowser: Attempting asset rename: NewBlueprint -> Broccoli
+[2024.04.02-04.44.35:687][453]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.02-04.44.38:657][763]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/Blueprints/Broccoli.Broccoli
+[2024.04.02-04.44.38:657][763]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.44.38:657][763]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-04.44.38:871][763]LogViewport: Scene viewport resized to 1371x639, mode Windowed.
+[2024.04.02-04.44.44:607][ 77]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.44.52:649][522]LogViewport: Scene viewport resized to 1361x639, mode Windowed.
+[2024.04.02-04.44.52:672][523]LogViewport: Scene viewport resized to 1344x639, mode Windowed.
+[2024.04.02-04.44.52:698][524]LogViewport: Scene viewport resized to 1300x639, mode Windowed.
+[2024.04.02-04.44.52:719][525]LogViewport: Scene viewport resized to 1272x639, mode Windowed.
+[2024.04.02-04.44.52:743][526]LogViewport: Scene viewport resized to 1263x639, mode Windowed.
+[2024.04.02-04.44.52:764][527]LogViewport: Scene viewport resized to 1246x639, mode Windowed.
+[2024.04.02-04.44.52:791][528]LogViewport: Scene viewport resized to 1238x639, mode Windowed.
+[2024.04.02-04.44.52:815][529]LogViewport: Scene viewport resized to 1223x639, mode Windowed.
+[2024.04.02-04.44.59:683][931]LogStaticMesh: Display: Building static mesh SM_Broccoli...
+[2024.04.02-04.44.59:699][931]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/UltimateFarming/Meshes/SM_Broccoli) ...
+[2024.04.02-04.44.59:774][931]LogStaticMesh: Adjacency [0.00s], tris: 5724, UVs 2
+[2024.04.02-04.44.59:796][931]LogStaticMesh: Clustering [0.02s]. Ratio: 1.044444
+[2024.04.02-04.44.59:797][931]LogStaticMesh: Leaves [0.00s]
+[2024.04.02-04.45.00:027][931]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_Fruit_Atlas_08_ORM.T_Fruit_Atlas_08_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.45.00:058][931]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_Fruit_Atlas_08_Basecolor.T_Fruit_Atlas_08_Basecolor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.45.00:105][931]LogTexture: Display: Building textures: /Game/UltimateFarming/Textures/T_Fruit_Atlas_08_Normal.T_Fruit_Atlas_08_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.04.02-04.45.00:158][931]LogStaticMesh: Reduce [0.36s]
+[2024.04.02-04.45.00:448][931]LogStaticMesh: Fallback 0/1 [0.29s], num tris: 3196
+[2024.04.02-04.45.00:464][931]LogStaticMesh: ConstrainClusters:
+[2024.04.02-04.45.00:464][931]LogStaticMesh:   Input: 94 Clusters, 11644 Triangles and 14471 Vertices
+[2024.04.02-04.45.00:464][931]LogStaticMesh:   Output without splits: 94 Clusters, 11644 Triangles and 14488 Vertices
+[2024.04.02-04.45.00:464][931]LogStaticMesh:   Output with splits: 95 Clusters, 11644 Triangles and 14488 Vertices
+[2024.04.02-04.45.00:465][931]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 95, Slow Path Clusters: 0, 1 Material: 95, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2024.04.02-04.45.00:473][931]LogStaticMesh: WritePages:
+[2024.04.02-04.45.00:473][931]LogStaticMesh:   Root: GPU size: 31124 bytes. 1 Pages. 31124.000 bytes per page (94.983% utilization).
+[2024.04.02-04.45.00:473][931]LogStaticMesh:   Streaming: GPU size: 180636 bytes. 2 Pages (2 with relative encoding). 90318.000 bytes per page (68.907% utilization).
+[2024.04.02-04.45.00:473][931]LogStaticMesh:   Page data disk size: 156048 bytes. Fixup data size: 376 bytes.
+[2024.04.02-04.45.00:473][931]LogStaticMesh:   Total GPU size: 211760 bytes, Total disk size: 156424 bytes.
+[2024.04.02-04.45.00:473][931]LogStaticMesh: Encode [0.02s]
+[2024.04.02-04.45.00:473][931]LogStaticMesh: Nanite build [0.67s]
+
+[2024.04.02-04.45.00:501][931]LogStaticMesh: Built static mesh [0.82s] /Game/UltimateFarming/Meshes/SM_Broccoli.SM_Broccoli
+[2024.04.02-04.45.17:401][810]BlueprintLog: New page: Compile Broccoli
+[2024.04.02-04.45.17:435][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.04.02-04.45.21:521][105]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Broccoli.Broccoli_C
+[2024.04.02-04.45.21:521][105]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Broccoli.Broccoli_C
+[2024.04.02-04.45.21:523][105]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Broccoli.Broccoli as actor: Broccoli_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Broccoli_C_0
+[2024.04.02-04.45.21:525][105]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Broccoli.Broccoli as actor: Broccoli_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Broccoli_C_0
+[2024.04.02-04.45.22:666][189]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Broccoli.Broccoli_C
+[2024.04.02-04.45.22:666][189]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Broccoli.Broccoli_C
+[2024.04.02-04.45.22:670][189]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Broccoli.Broccoli as actor: Broccoli_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Broccoli_C_UAID_B04F1315F8A123E801_1396855312
+[2024.04.02-04.45.22:672][189]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Broccoli.Broccoli as actor: Broccoli_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Broccoli_C_UAID_B04F1315F8A123E801_1396855312
+[2024.04.02-04.46.41:923][ 57]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.04.02-04.46.41:931][ 57]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.04.02-04.46.41:939][ 57]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.04.02-04.46.41:951][ 58]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.04.02-04.46.44:272][337]LogContentBrowser: Attempting asset rename: NewBlueprint -> Egg
+[2024.04.02-04.46.44:281][337]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.04.02-04.46.45:363][448]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/Blueprints/Egg.Egg
+[2024.04.02-04.46.45:363][448]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.46.45:363][448]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.02-04.46.45:596][448]LogViewport: Scene viewport resized to 1223x639, mode Windowed.
+[2024.04.02-04.47.03:964][497]LogStaticMesh: Display: Building static mesh SM_PROP_food_egg_01...
+[2024.04.02-04.47.03:968][497]LogStaticMesh: Built static mesh [0.00s] /Game/Fantastic_Village_Pack/meshes/props/food/SM_PROP_food_egg_01.SM_PROP_food_egg_01
+[2024.04.02-04.47.03:983][497]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.02-04.47.21:882][445]BlueprintLog: New page: Compile Egg
+[2024.04.02-04.47.21:920][445]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.04.02-04.47.30:059][175]Cmd: DELETE
+[2024.04.02-04.47.30:059][175]Cmd: ACTOR DELETE
+[2024.04.02-04.47.30:062][175]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.02-04.47.30:087][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.04.02-04.47.30:091][175]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2024.04.02-04.47.31:348][293]Cmd: DELETE
+[2024.04.02-04.47.31:348][293]Cmd: ACTOR DELETE
+[2024.04.02-04.47.31:350][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.02-04.47.31:376][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.04.02-04.47.31:380][293]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.04.02-04.47.32:366][382]Cmd: DELETE
+[2024.04.02-04.47.32:366][382]Cmd: ACTOR DELETE
+[2024.04.02-04.47.32:368][382]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.02-04.47.32:388][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.02-04.47.32:393][382]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.04.02-04.47.33:238][450]Cmd: DELETE
+[2024.04.02-04.47.33:238][450]Cmd: ACTOR DELETE
+[2024.04.02-04.47.33:240][450]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.02-04.47.33:265][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.04.02-04.47.33:269][450]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.04.02-04.47.34:653][565]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Egg.Egg_C
+[2024.04.02-04.47.34:653][565]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Egg.Egg_C
+[2024.04.02-04.47.34:655][565]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Egg.Egg as actor: Egg_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Egg_C_0
+[2024.04.02-04.47.34:656][565]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Egg.Egg as actor: Egg_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Egg_C_0
+[2024.04.02-04.47.35:484][634]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Egg.Egg_C
+[2024.04.02-04.47.35:484][634]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Egg.Egg_C
+[2024.04.02-04.47.35:488][634]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Egg.Egg as actor: Egg_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Egg_C_UAID_B04F1315F8A123E801_1529673313
+[2024.04.02-04.47.35:491][634]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Egg.Egg as actor: Egg_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Egg_C_UAID_B04F1315F8A123E801_1529673313
+[2024.04.02-04.47.46:686][771]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Egg.Egg_C
+[2024.04.02-04.47.46:686][771]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Enemies/Blueprints/Egg.Egg_C
+[2024.04.02-04.47.46:688][771]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Egg.Egg as actor: Egg_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Egg_C_1
+[2024.04.02-04.47.46:689][771]LogActorFactory: Actor Factory spawned Blueprint /Game/Enemies/Blueprints/Egg.Egg as actor: Egg_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Egg_C_1
+[2024.04.02-04.48.12:458][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.02-04.48.15:562][328]LogSlate: Window 'Save Content' being destroyed
+[2024.04.02-04.48.15:572][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.02-04.48.15:661][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.04.02-04.48.15:685][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.04.02-04.48.15:706][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.04.02-04.48.15:713][328]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3D/NYYWK1GDCX0IX2GAUAPX78
+[2024.04.02-04.48.15:713][328]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/NYYWK1GDCX0IX2GAUAPX789E45ED334AADB1FFE9430082023D16EB.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/3D/NYYWK1GDCX0IX2GAUAPX78.uasset'
+[2024.04.02-04.48.15:838][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Blueprints/Broccoli" FILE="../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Broccoli.uasset" SILENT=true
+[2024.04.02-04.48.15:853][328]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/Broccoli
+[2024.04.02-04.48.15:853][328]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/BroccoliC9E209604F18C6BE89E9CDBB8A011B67.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Broccoli.uasset'
+[2024.04.02-04.48.15:885][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Blueprints/Egg" FILE="../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Egg.uasset" SILENT=true
+[2024.04.02-04.48.15:893][328]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/Egg
+[2024.04.02-04.48.15:893][328]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/EggEA7923A1441370138763E7821DCAFA8C.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Egg.uasset'
+[2024.04.02-04.48.15:899][328]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/PH/2MIJDIS6ZCT9AAOGS9MC4C
+[2024.04.02-04.48.15:899][328]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/2MIJDIS6ZCT9AAOGS9MC4CDCA3A6FA4327549AF4A52B98166B766C.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/PH/2MIJDIS6ZCT9AAOGS9MC4C.uasset'
+[2024.04.02-04.48.15:904][328]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/XG/M5J806WNBU4RSQE3I8BMK8
+[2024.04.02-04.48.15:904][328]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/M5J806WNBU4RSQE3I8BMK89705E9064E9EB60E3510A09254194B18.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/XG/M5J806WNBU4RSQE3I8BMK8.uasset'
+[2024.04.02-04.48.15:929][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/Blueprints/Tomato" FILE="../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Tomato.uasset" SILENT=true
+[2024.04.02-04.48.15:937][328]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/Tomato
+[2024.04.02-04.48.15:937][328]LogSavePackage: Moving '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Saved/Tomato99C8B1B54A933411568567A6B98E8F64.tmp' to '../../../../../../Users/novosad3/Documents/GitHub/CS415_Final_Project/Content/Enemies/Blueprints/Tomato.uasset'
+[2024.04.02-04.48.15:949][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 377 ms (total: 1.85 sec)
+[2024.04.02-04.48.15:954][328]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.02-04.48.15:954][328]LogContentValidation: Display: Validating /Game/Enemies/Blueprints/Broccoli.Broccoli_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Broccoli_C_UAID_B04F1315F8A123E801_1396855312
+[2024.04.02-04.48.15:954][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/Broccoli.Broccoli
+[2024.04.02-04.48.15:954][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/Egg.Egg
+[2024.04.02-04.48.15:954][328]LogContentValidation: Display: Validating /Game/Enemies/Blueprints/Egg.Egg_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Egg_C_UAID_B04F1315F8A123E801_1529673313
+[2024.04.02-04.48.15:954][328]LogContentValidation: Display: Validating /Game/Enemies/Blueprints/Tomato.Tomato_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.Tomato_C_UAID_B04F1315F8A123E801_1087621311
+[2024.04.02-04.48.15:954][328]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/Tomato.Tomato
